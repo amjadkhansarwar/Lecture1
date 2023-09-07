@@ -90,6 +90,9 @@ class Program {
 
         product.PrintInfo();
 
+        Conditionalstatements conditionalstatement = new Conditionalstatements(10);
+        conditionalstatement.CheckInput();
+
         Console.ReadLine();
     }
 
