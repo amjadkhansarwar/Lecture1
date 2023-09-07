@@ -34,7 +34,7 @@ if (name)
     case 1:
         Console.WriteLine("This is one number");
      breake;
-}*/
+}
 int age = 33;
 
 //om <18
@@ -77,3 +77,20 @@ int h = 12;
 double area = 0.5 * b * h;
 
 Console.WriteLine(area);
+*/
+
+class Program {
+    static void Main()
+    {
+        Person person = new Person("Amjad", 33);
+
+        person.PrintInfo();
+
+        Product product = new Product("Bannan", 12, 139.99);
+
+        product.PrintInfo();
+
+        Console.ReadLine();
+    }
+
+}
