@@ -69,3 +69,11 @@ else
 ///
 
 Console.WriteLine("Git hub");
+
+int b = 10;
+int h = 12;
+
+
+double area = 0.5 * b * h;
+
+Console.WriteLine(area);
